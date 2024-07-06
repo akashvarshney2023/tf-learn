@@ -1,0 +1,1 @@
+azure_resource_group_info = ["test-resource-group", "East US", true]
