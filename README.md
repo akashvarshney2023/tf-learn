@@ -34,7 +34,7 @@ Assign a role to the application:
 
 In the subscription overview, note down the Subscription ID. This will be used as the subscription_id.
 
-> Once you have gathered all the necessary values, you can configure your provider "azurerm" block in your Terraform configuration file as follows:
+> Once you have gathered all the necessary values, you can configure your provider "azurerm" block in your Terraform configuration file:
 
 ----
 
