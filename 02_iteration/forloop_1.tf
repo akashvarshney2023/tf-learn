@@ -4,9 +4,6 @@ variable "regions_list" {
 
 }
 
-#test_list = ["1","2","3"]
-
-
 output "server_urls" {
   value = [for region in var.regions_list : "${region} - az"]
 }
