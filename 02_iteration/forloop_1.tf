@@ -17,3 +17,25 @@ variable "count_details" {
 }
 
 
+locals {
+  
+  region_list = [for region in var.regions_list : "${region} - az"]
+
+  ##### Filter the count_details map to include only entries with values greater than 5
+ 
+  filtered_count_details = {
+    for details_key, details_value in var.count_details : details_key => details_value
+    
+  }
+}
+
+output "count_details" {
+  value = local.filtered_count_details
+  
+}
+output "server" {
+  value = local.region_list
+  
+}
+
+
