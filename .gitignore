@@ -1,0 +1,9 @@
+01/.terraform.lock.hcl
+01/.terraform/environment
+01/.terraform/terraform.tfstate
+01/.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.112.0/windows_amd64/LICENSE.txt
+01/.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.112.0/windows_amd64/terraform-provider-azurerm_v3.112.0_x5.exe
+ChinaMigration.md
+assets/1.png
+assets/2.png
+assets/3.png
